@@ -12,8 +12,8 @@ on:
         required: false
         default: "20240301"
   schedule:
-    # UTC 时间。10:30 UTC = 北京时间 17:00。
-    - cron: "0 9 * * 1-5"
+    # UTC 时间。10:30 UTC = 北京时间 17:30。
+    - cron: "30 9 * * 1-5"
 
 permissions:
   contents: read
